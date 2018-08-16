@@ -14,7 +14,16 @@ import { connect } from 'react-redux';
 import { addItem } from '../actions/itemActions';
 
 class ItemModal extends Component {
+  state = {
+      modal: false,
+      name: ''
+  }
 
+  toggle = () => {
+      this.setState({
+          modal: !this.state.modal
+      });
+  }
 }
 
 export default connect()(ItemModal);
