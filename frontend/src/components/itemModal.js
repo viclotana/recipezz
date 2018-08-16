@@ -47,6 +47,9 @@ class ItemModal extends Component {
                       <Input
                          type="text"
                          name="name" 
+                         id="item"
+                         placeholder="Add New Recipe"
+                         onChange={this.onChange}
                          />
                   </FormGroup>
                 </Form>
