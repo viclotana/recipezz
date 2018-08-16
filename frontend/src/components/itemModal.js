@@ -42,6 +42,9 @@ class ItemModal extends Component {
               Add to Recipe List</ModalHeader>
               <ModalBody>
                 <Form onSubmit={this.onSubmit}>
+                  <FormGroup>
+                      
+                  </FormGroup>
                 </Form>
               </ModalBody>
               </Modal>
