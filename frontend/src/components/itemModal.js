@@ -26,7 +26,7 @@ class ItemModal extends Component {
   }
 
   onChange = (e)=> {
-      this.setState({ [] });
+      this.setState({ [e.target.name] });
   }
 
   render () {
