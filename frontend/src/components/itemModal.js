@@ -34,7 +34,10 @@ class ItemModal extends Component {
                 onClick={this.toggle}
               >Add Item</Button>
 
-              <Modal>
+              <Modal
+              isOpen={this.state.modal}
+              toggle={this.toggle}
+              >
               </Modal>
           </div>
       );
