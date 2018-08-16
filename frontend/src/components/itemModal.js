@@ -55,6 +55,10 @@ class ItemModal extends Component {
                          placeholder="Add New Recipe"
                          onChange={this.onChange}
                          />
+                  <Button color="dark"
+                  style={{marginTop:'2rem'}}
+                  block>
+                  Add Recipe </Button>
                   </FormGroup>
                 </Form>
               </ModalBody>
