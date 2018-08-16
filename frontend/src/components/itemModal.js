@@ -46,7 +46,8 @@ class ItemModal extends Component {
                       <Label for="item"></Label>
                       <Input
                          type="text"
-                         name="name" />
+                         name="name" 
+                         />
                   </FormGroup>
                 </Form>
               </ModalBody>
