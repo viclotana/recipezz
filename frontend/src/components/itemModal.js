@@ -38,8 +38,11 @@ class ItemModal extends Component {
               isOpen={this.state.modal}
               toggle={this.toggle}
               >
-              <ModalHeader toggle={this.toggle}></ModalHeader>
-              
+              <ModalHeader toggle={this.toggle}>
+              Add to Recipe List</ModalHeader>
+              <ModalBody>
+                <Form onSubmit={this.onSubmit}>
+              </ModalBody>
               </Modal>
           </div>
       );
