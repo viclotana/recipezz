@@ -15,6 +15,7 @@ class App extends Component {
       <Provider store={store}>
       <div className="App">
         <AppNavbar />
+        
         <ItemModal /> 
         <RecipeList />
       </div>
