@@ -43,7 +43,7 @@ class ItemModal extends Component {
               <ModalBody>
                 <Form onSubmit={this.onSubmit}>
                   <FormGroup>
-                      
+                      <Label for="item">
                   </FormGroup>
                 </Form>
               </ModalBody>
