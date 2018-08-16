@@ -25,6 +25,10 @@ class ItemModal extends Component {
       });
   }
 
+  onChange = (e)=> {
+      this.setState({ [] });
+  }
+
   render () {
       return(
           <div>
