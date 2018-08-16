@@ -24,6 +24,16 @@ class ItemModal extends Component {
           modal: !this.state.modal
       });
   }
+
+  render () {
+      return(
+          <div>
+              <Button
+                color="dark"
+              >Add Item</Button>
+          </div>
+      );
+  }
 }
 
 export default connect()(ItemModal);
