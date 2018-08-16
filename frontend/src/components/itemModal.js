@@ -38,6 +38,8 @@ class ItemModal extends Component {
               isOpen={this.state.modal}
               toggle={this.toggle}
               >
+              <ModalHeader toggle={this.toggle}></ModalHeader>
+              
               </Modal>
           </div>
       );
