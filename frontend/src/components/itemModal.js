@@ -44,6 +44,9 @@ class ItemModal extends Component {
                 <Form onSubmit={this.onSubmit}>
                   <FormGroup>
                       <Label for="item"></Label>
+                      <Input
+                         type="text"
+                         name="name" />
                   </FormGroup>
                 </Form>
               </ModalBody>
